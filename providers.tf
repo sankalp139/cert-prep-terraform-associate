@@ -9,13 +9,13 @@ terraform {
 
 provider "aws" {
   region  = "us-west-2"
-  profile = "Terradmin"
+ // profile = "Terradmin"
   # Configuration options
 }
 
-provider "aws"{
+provider "aws" {
   alias = "east"
   region = "us-east-1"
-  profile = "Terradmin"
+  //profile = "Terradmin"
 }
 
